@@ -1,0 +1,41 @@
+body{
+   height: 15rem;
+   width: 50rem;
+    font-family: 'Chivo', sans-serif;
+    padding:5rem;
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXTJTJPrjFvmIum7_pGrYcwwiU625V7bVIZQ&usqp=CAU" alt="singer")
+}
+
+
+section{
+    background: hsl(222deg 37% 11%);
+    color:#ffffff;
+    padding:5rem;
+    position:relative;
+    z-index: 1;
+   display: flex;
+  
+}
+.email{
+    border-radius: 5px;
+}
+.singer-image{
+    height: 19rem;
+    width: 20rem;
+    position:absolute;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXTJTJPrjFvmIum7_pGrYcwwiU625V7bVIZQ&usqp=CAU");
+    border-style: none;
+    background-size: contain;
+    top:0px;
+    right:0px;
+    z-index: -1;
+}
+.main{
+    z-index: index 100;;
+    background: hsl(222deg 37% 11%);
+    border:15rem solid none;
+}
+@media (min-width:723px) {
+    section {
+        flex-direction:column-reverse;
+      }
